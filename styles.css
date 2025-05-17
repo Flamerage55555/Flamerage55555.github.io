@@ -3,7 +3,7 @@ body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
     font-family: 'Helvetica', Arial, sans-serif;
-    background-color: coral;
+    background-image: url(logos/oraaange.jpg);
   }
   
   /* HEADER STYLES */
@@ -13,7 +13,7 @@ body, h1, h2, h3, p {
     align-items: center;
     padding: 15px 30px;
     background: white;
-    border-bottom: 1px solid #eee;
+    border-bottom: 5px solid black;
   }
   
   nav a {
@@ -23,11 +23,15 @@ body, h1, h2, h3, p {
   }
   
   header button {
-    background: #E4002B; /* KFC's red */
+    background: #ff8000; /* KFC's red */
     color: white;
-    border: none;
+    border: 8px dashed; /* KFC's red */
     padding: 8px 16px;
     border-radius: 4px;
+  }
+
+  button:hover {
+    scale: 1.2; /* Darker shade for hover */
   }
   
   /* HERO SECTION */
@@ -37,7 +41,7 @@ body, h1, h2, h3, p {
   }
 
   .hero img {
-    width: 30%;
+    width: 25%;
     height: auto;
     object-fit: cover;
   }
@@ -66,7 +70,7 @@ body, h1, h2, h3, p {
   
   .food-card {
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 35px;
     overflow: hidden;
   }
   
@@ -89,6 +93,3 @@ body, h1, h2, h3, p {
     margin: 0 10px;
   }
 
-button:hover{
-  scale: 0.5;
-}
