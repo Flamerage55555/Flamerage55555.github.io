@@ -88,15 +88,32 @@ body, h1, h2, h3, p {
     padding-left: 650px;
   }
 
-  .fifty-fifty {
-    display: grid;
-    padding: 0;
-    width: 1000px;
-    color: black
+
+.location-box {
+  background: #fff; /* Pure white for contrast */
+  border: 5px solid #ffd600;
+  border-radius: 12px;
+  padding: 24px 32px;
+  margin: 24px auto;
+  max-width: 600px;
+  color: #333;
+  text-align: justify;
 }
 
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 2.5vw;
+/* Removes background color from paragraph if present */
+.location-box p {
+  background: none;
+  margin: 0;
+}
+
+.location-box h3 {
+  background: none;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.location-box h1 {
+  background: none;
+  margin: 0;
+  font-family: "Pinyon Script", cursive;
 }
