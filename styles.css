@@ -3,7 +3,7 @@ body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
     font-family: 'Helvetica', Arial, sans-serif;
-    background-image: url(logos/oraaange.jpg);
+    background: linear-gradient(90deg, #F7AD28 0%, #CF3437 49.97%, #F7AD28 100%);
   }
   
   /* HEADER STYLES */
@@ -23,9 +23,9 @@ body, h1, h2, h3, p {
   }
   
   header button {
-    background: #ff8000; /* KFC's red */
+    background: #ff8000; 
     color: white;
-    border: 8px dashed; /* KFC's red */
+    border: 8px dashed; 
     padding: 8px 16px;
     border-radius: 4px;
   }
