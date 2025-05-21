@@ -1,4 +1,4 @@
-/* RESET DEFAULTS */
+/* Body section */
 body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@ body, h1, h2, h3, p {
     background: linear-gradient(90deg, #F7AD28 0%, #CF3437 49.97%, #F7AD28 100%);
   }
   
-  /* HEADER STYLES */
+  /* Header section */
   header {
     display: flex;
     justify-content: space-between;
@@ -31,10 +31,10 @@ body, h1, h2, h3, p {
   }
 
   button:hover {
-    scale: 1.2; /* Darker shade for hover */
+    scale: 1.2; 
   }
   
-  /* HERO SECTION */
+  /* Hero section */
   .hero {
     position: relative;
     text-align: center;
@@ -55,7 +55,7 @@ body, h1, h2, h3, p {
   }
 
   
-  /* MENU SECTION */
+  /* Menu section */
   .menu {
     padding: 40px 20px;
     text-align: center;
@@ -72,24 +72,20 @@ body, h1, h2, h3, p {
     object-fit: cover;
     border-radius: 30px;
   }
-  
-  /* FOOTER */
-  footer {
-    color: white;
-    text-align: center;
+
+  /* this section for the menu or anything */
+  .center-box {
+    background: #fff;
+    border: 5px solid #ffd600;
+    border-radius: 10px;
     padding: 20px;
-  }
-  
-  .social img {
-    width: 30px;
-    margin: 0 10px;
-  }
-
-  .logo {
-    padding-left: 650px;
+    margin: 30px auto;
+    max-width: 600px;
+    text-align: center;
+    color: black;
   }
 
-/* LOCATION BOX */
+  /* Location box */
   .location-box {
     background: #fff; /* Pure white for contrast */
     border: 5px solid #ffd600;
@@ -101,7 +97,7 @@ body, h1, h2, h3, p {
     text-align: justify;
   }
 
-/* Removes background color from paragraph if present */
+  /* Removes background color from paragraph if present */
   .location-box p {
     background: none;
     margin: 0;
@@ -119,15 +115,20 @@ body, h1, h2, h3, p {
     font-family: "Pinyon Script", cursive;
   }
 
-/* Centered box for the menu or anything */
-  .center-box {
-    background: #fff;
-    border: 5px solid #ffd600;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 30px auto;
-    max-width: 600px;
+  
+  /* Footer */
+  footer {
+    color: white;
     text-align: center;
-    color: black;
+    padding: 20px;
+  }
+  
+  .social img {
+    width: 30px;
+    margin: 0 10px;
+  }
+
+  .logo {
+    padding-left: 650px;
   }
 
