@@ -73,7 +73,7 @@ body, h1, h2, h3, p {
     border-radius: 30px;
   }
 
-  /* this section for the menu or anything */
+  /* Center box section*/
   .center-box {
     background: #fff;
     border: 5px solid #ffd600;
@@ -102,19 +102,6 @@ body, h1, h2, h3, p {
     margin: 0;
     font-family: "Pinyon Script", cursive;
   }
-
-  /* Location box */
-  .location-box {
-    background: #fff; /* Pure white for contrast */
-    border: 5px solid #ffd600;
-    border-radius: 12px;
-    padding: 24px 32px;
-    margin: 24px auto;
-    max-width: 600px;
-    color: #333;
-    text-align: justify;
-  }
-
   
   /* Footer */
   footer {
