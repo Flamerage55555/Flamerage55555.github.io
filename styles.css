@@ -53,6 +53,7 @@ body, h1, h2, h3, p {
     color: white;
     font-size: 3rem;
   }
+
   
   /* MENU SECTION */
   .menu {
@@ -88,32 +89,45 @@ body, h1, h2, h3, p {
     padding-left: 650px;
   }
 
-
-.location-box {
-  background: #fff; /* Pure white for contrast */
-  border: 5px solid #ffd600;
-  border-radius: 12px;
-  padding: 24px 32px;
-  margin: 24px auto;
-  max-width: 600px;
-  color: #333;
-  text-align: justify;
-}
+/* LOCATION BOX */
+  .location-box {
+    background: #fff; /* Pure white for contrast */
+    border: 5px solid #ffd600;
+    border-radius: 12px;
+    padding: 24px 32px;
+    margin: 24px auto;
+    max-width: 600px;
+    color: #333;
+    text-align: justify;
+  }
 
 /* Removes background color from paragraph if present */
-.location-box p {
-  background: none;
-  margin: 0;
-}
+  .location-box p {
+    background: none;
+    margin: 0;
+  }
 
-.location-box h3 {
-  background: none;
-  margin: 0;
-  font-family: "Times New Roman", Times, serif;
-}
+  .location-box h3 {
+    background: none;
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+  }
 
-.location-box h1 {
-  background: none;
-  margin: 0;
-  font-family: "Pinyon Script", cursive;
-}
+  .location-box h1 {
+    background: none;
+    margin: 0;
+    font-family: "Pinyon Script", cursive;
+  }
+
+/* Centered box for the menu or anything */
+  .center-box {
+    background: #fff;
+    border: 5px solid #ffd600;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 600px;
+    text-align: center;
+    color: black;
+  }
+
