@@ -58,9 +58,7 @@ body, h1, h2, h3, p {
   /* Menu section */
   .menu {
     padding: 40px 20px;
-    text-align: center;
   }
-
   
   .food-card {
     overflow: hidden;
@@ -71,6 +69,23 @@ body, h1, h2, h3, p {
     height: auto;
     object-fit: cover;
     border-radius: 30px;
+  }
+
+  .food-center {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .text-box {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 600px;
+    text-align: center;
+    color: black;
   }
 
   /* Center box section*/
